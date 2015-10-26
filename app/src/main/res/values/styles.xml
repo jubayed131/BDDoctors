@@ -1,0 +1,11 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="ActionBar" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:icon">@mipmap/doctor_sign_edited</item>
+    </style>
+
+</resources>

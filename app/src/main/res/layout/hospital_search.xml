@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Select Place:"
+        android:textSize="15sp"
+        android:textColor="@color/raihan"
+        />
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="match_parent"
+
+        android:entries="@array/place_array"
+        android:layout_height="40dp"
+        android:background="@color/halkaNil"
+        android:prompt="@string/select"/>
+
+
+
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/button"
+        android:layout_gravity="center"
+
+        android:layout_height="wrap_content"
+        android:layout_width="95dp"
+        android:background="@drawable/button"
+        android:textColor="@color/raihan"
+        android:text="@string/button_label" />
+
+</LinearLayout>
